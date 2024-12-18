@@ -53,11 +53,15 @@ padding: 15px;
     width: 500px;
     
 }
-.text1{
+.div1{
     width: 50%;
 }
 .img1{
     width: 49%;
     border-radius: 10%;
 
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
 }

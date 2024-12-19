@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .section-1 {
+    margin-bottom: 40px;
+  }
+  .section-2 {
+    margin-bottom: 90px;
+  }
+  .faq {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+  }
+  
+  .faq-question {
+    background-color: #f4f4f4;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #e9e9e9;
+    border-left: 2px solid #ccc;
+  }
+  
+  .slider {
+    position: relative;
+    overflow: hidden;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .slide {
+    display: none;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .slide blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 97%;
+    transform: translateY(-50%);
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .active {
+    display: block;
+  }
+  .star-rating {
+    display: inline-block;
+  }
+  
+  .star {
+    width: 20px;
+    height: 20px;
+    background-image: url('images/BaeCation\ websitepics/starratingicon.png'); /* Replace with your star image path */
+    background-size: cover;
+    display: inline-block;
+    margin-right: 5px;
+  }
+ #rating-container {
+  display: flex; /* Align stars horizontally */
+  gap: 5px; /* Add spacing between stars */
+  justify-content: center; /* Center the stars */
+  margin-top: 20px; /* Add some space at the top */
+  align-items: center;
+}
+/* header style */
+.logo{
+    border-radius: 50%;
+}
+body{
+    padding: 0px 30px;
+}  
+.navAnchor{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}
+.navul{
+    list-style-type: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.logo{
+    height: 90px;
+}
+.nav{
+    width: 70%;
+padding: 15px;
+    
+}
+.navul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+.navAnchor:hover{
+    color: rgb(28, 0, 90);
+ text-decoration: underline;
+}
+
+
+.header{
+    padding: 20px;
+}
+
+/* General Footer Styling */
+footer {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 30px 20px;
+    line-height: 1.6;
+}
+
+/* Subscribe Section */
+.subscribe {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscribe h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.email-subscribe {
+    margin: 10px auto;
+}
+
+.email-subscribe input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.email-subscribe button {
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.email-subscribe button:hover {
+    background-color: #444;
+}
+
+.privacy-text {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Footer Content Grid */
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.footer-column h4 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    font-size: 0.9em;
+}
+
+.footer-bottom a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a img {
+    width: 20px;
+    margin: 0 5px;
+}

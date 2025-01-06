@@ -18,7 +18,9 @@ header{
     width: 95%;
 }
 .logo{
-    height: 90px;
+    width: 200px;
+    padding: 20px 40px;
+    margin-left:40px;
 }
 .nav{
     width: 70%;
@@ -27,7 +29,7 @@ padding: 15px;
 }
 .navul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     
     
 }
@@ -44,6 +46,8 @@ padding: 15px;
     display: flex;
     justify-content: space-between;
     width: 98%;
+    padding: 20px 40px;
+    margin-left:40px;
 }
 .text12{
     font-size: 22px;

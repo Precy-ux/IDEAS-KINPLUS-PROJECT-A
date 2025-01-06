@@ -47,4 +47,16 @@ document.addEventListener('DOMContentLoaded', () => {
       updateImageSlider(); // Initialize first image as active
     });
   });
+
+  // Select all boxes
+const boxes = document.querySelectorAll('.box');
+
+// Add a click event listener to each box
+boxes.forEach(box => {
+  box.addEventListener('click', () => {
+    // Toggle the 'expanded' class on the clicked box
+    box.classList.toggle('expanded');
+  });
+});
+
   

@@ -1,0 +1,132 @@
+<div class="row">
+    <!-- Box 1 -->
+    <div class="box">
+      <div class="image-slider">
+        <img src="images/BaeCation websitepics/restaurant.jpg" class="image active" alt="Image 1">
+        <img src="image2.jpg" class="image" alt="Image 2">
+        <img src="image3.jpg" class="image" alt="Image 3">
+        <img src="image4.jpg" class="image" alt="Image 4">
+        <div class="image-controls">
+          <button class="prev-image">&#9664;</button>
+          <button class="next-image">&#9654;</button>
+        </div>
+      </div>
+      <p class="description">Description of Box 1</p>
+      <p class="map">Map for Box 1</p>
+      <p class="description"><span><b>Has all you can eat · Serves vegan dishes · Has kids' menu.</b></span></p>
+    </div>
+    <!-- Box 2 -->
+    <div class="box">
+      <div class="image-slider">
+        <img src="images/BaeCation websitepics/Reception.jpg" class="image active" alt="Image 1">
+        <img src="image2.jpg" class="image" alt="Image 2">
+        <img src="image3.jpg" class="image" alt="Image 3">
+        <img src="image4.jpg" class="image" alt="Image 4">
+        <div class="image-controls">
+          <button class="prev-image">&#9664;</button>
+          <button class="next-image">&#9654;</button>
+        </div>
+      </div>
+      <p class="description">Description of Box 2</p>
+      <p class="map">Map for Box 2</p>
+      <p class="description"><span><b>Has all you can eat · Serves vegan dishes · Has kids' menu.</b></span></p>
+    </div>
+    <!-- Box 3 -->
+    <div class="box">
+      <div class="image-slider">
+        <img src="images/BaeCation websitepics/prosperous viewpc1.jpg" class="image active" alt="Image 1">
+        <img src="image2.jpg" class="image" alt="Image 2">
+        <img src="image3.jpg" class="image" alt="Image 3">
+        <img src="image4.jpg" class="image" alt="Image 4">
+        <div class="image-controls">
+          <button class="prev-image">&#9664;</button>
+          <button class="next-image">&#9654;</button>
+        </div>
+      </div>
+      <p class="description">Description of Box 3</p>
+      <p class="map">Map for Box 3</p>
+      <p class="description"><span><b>Has all you can eat · Serves vegan dishes · Has kids' menu.</b></span></p>
+    </div>
+    <!-- Box 4 -->
+    <div class="box">
+      <div class="image-slider">
+        <img src="images/BaeCation websitepics/perps snack1.jpg" class="image active" alt="Image 1">
+        <img src="images/BaeCation websitepics/perps snack2.jpg" class="image" alt="Image 2">
+        <img src="images/BaeCation websitepics/perps snack3.jpg" class="image" alt="Image 3">
+        <img src="images/BaeCation websitepics/perp snack4.jpg" class="image" alt="Image 4">
+        <div class="image-controls">
+          <button class="prev-image">&#9664;</button>
+          <button class="next-image">&#9654;</button>
+        </div>
+      </div>
+      <p class="description">Description of Box 4</p>
+      <p class="map">Map for Box 4</p>
+    </div>
+    <!-- box 5 -->
+    <div class="box hidden">
+        <div class="image-slider">
+          <img src="image1.jpg" class="image active" alt="Image 1">
+          <img src="image2.jpg" class="image" alt="Image 2">
+          <img src="image3.jpg" class="image" alt="Image 3">
+          <img src="image4.jpg" class="image" alt="Image 4">
+          <div class="image-controls">
+            <button class="prev-image">&#9664;</button>
+            <button class="next-image">&#9654;</button>
+          </div>
+        </div>
+        <p class="description">Description of Box 4</p>
+        <p class="map">Map for Box 4</p>
+      </div>
+      <!-- box 6 -->
+      <div class="box hidden">
+        <div class="image-slider">
+          <img src="image1.jpg" class="image active" alt="Image 1">
+          <img src="image2.jpg" class="image" alt="Image 2">
+          <img src="image3.jpg" class="image" alt="Image 3">
+          <img src="image4.jpg" class="image" alt="Image 4">
+          <div class="image-controls">
+            <button class="prev-image">&#9664;</button>
+            <button class="next-image">&#9654;</button>
+          </div>
+        </div>
+        <p class="description">Description of Box 4</p>
+        <p class="map">Map for Box 4</p>
+      </div>
+      <!-- box  7-->
+      <div class="box hidden">
+        <div class="image-slider">
+          <img src="image1.jpg" class="image active" alt="Image 1">
+          <img src="image2.jpg" class="image" alt="Image 2">
+          <img src="image3.jpg" class="image" alt="Image 3">
+          <img src="image4.jpg" class="image" alt="Image 4">
+          <div class="image-controls">
+            <button class="prev-image">&#9664;</button>
+            <button class="next-image">&#9654;</button>
+          </div>
+        </div>
+        <p class="description">Description of Box 4</p>
+        <p class="map">Map for Box 4</p>
+      </div>
+      <!-- box 8 -->
+      <div class="box hidden">
+        <div class="image-slider">
+          <img src="image1.jpg" class="image active" alt="Image 1">
+          <img src="image2.jpg" class="image" alt="Image 2">
+          <img src="image3.jpg" class="image" alt="Image 3">
+          <img src="image4.jpg" class="image" alt="Image 4">
+          <div class="image-controls">
+            <button class="prev-image">&#9664;</button>
+            <button class="next-image">&#9654;</button>
+          </div>
+        </div>
+        <p class="description">Description of Box 4</p>
+        <p class="map">Map for Box 4</p>
+      </div>
+    <!-- Hidden Boxes 5-8 -->
+  </div>
+    <!-- Navigation for Rows -->
+    <div class="row-controls">
+      <button class="prev-row">&#9664;</button>
+      <button class="next-row">&#9654;</button>
+    </div>
+  </div>

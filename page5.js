@@ -20,9 +20,8 @@ let attractionGuideArray = [
   {
     image: "images/BaeCation websitepics/fajuyi park1.jpg",
     guideName: "Fajuyi park",
-    guideAddress: "Fajuyi round about",
-    guideDescription:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis unde dolor voluptate consequatur quaerat, totam necessitatibus mollitia ipsam velit ipsa officia veniam deserunt. Aut, voluptates aperiam corporis quis optio quisquam?",
+    guideAddress: "Fajuyi roundabout, Ado-Ekiti, Ekiti state",
+    guideDescription:"Fajuyi Park is a serene and beautiful park located at the Fajuyi Roundabout in Ado-Ekiti, Ekiti State. Known for its lush greenery and peaceful atmosphere, it is an ideal spot for relaxation, picnics, and outdoor activities. You can view the location on the map here: [Fajuyi Park Map](https://www.google.com/maps?q=Fajuyi+Roundabout,+Ado-Ekiti,+Ekiti+State)"
   },
   {
     image: "images/BaeCation websitepics/fajuyi park1.jpg",

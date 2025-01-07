@@ -18,7 +18,7 @@ document.querySelectorAll(".image-slider").forEach((slider) => {
   
   let attractionGuideArray = [
     {
-      image: "images/BaeCation websitepics/fajuyi park1.jpg",
+      image: "images/fajuyi.jpg",
       guideName: "Fajuyi park",
       guideAddress: "Fajuyi roundabout, Ado-Ekiti, Ekiti state",
       guideDescription:`Fajuyi Park is a serene and beautiful park located at the Fajuyi Roundabout in Ado-Ekiti, Ekiti State. Known for its lush greenery and peaceful atmosphere, it is an ideal spot for relaxation, picnics, and outdoor activities.
@@ -28,42 +28,42 @@ document.querySelectorAll(".image-slider").forEach((slider) => {
     
       
     {
-      image: "images/BaeCation websitepics/fajuyi park1.jpg",
+      image: "images/arinta.jpg",
       guideName: "Arinta waterfall",
       guideAddress: " is located in Ipole-Iloro town, Ekiti State, Nigeria. 1  It's just a short 5-minute drive from the famous Ikogosi Warm Spring",
       guideDescription:
         "Arinta Waterfall, also known as Erin Ijesha Waterfall, is one of the most beautiful waterfalls in Ekiti State. It features a series of cascading waterfalls set in a scenic environment, offering visitors a peaceful atmosphere and opportunities for hiking and outdoor activities",
     },
     {
-      image: "images/BaeCation websitepics/fajuyi park1.jpg",
+      image: "images/esa.jpg",
       guideName: "Esa Cave",
       guideAddress: "It is located in Iyin Ekiti, Ekiti State, Nigeria. It's approximately 3 kilometers away from Ado-Ekiti, the state capital",
       guideDescription:
         " Esa Cave is a popular historical and cultural site in Ekiti. The cave offers a great hiking and adventure experience for nature enthusiasts and those interested in the rich history and folklore surrounding the area",
     },
     {
-          image: "images/BaeCation websitepics/fajuyi park1.jpg",
+          image: "images/ikogosi - copy.jpg",
           guideName: "Ikogosi Warm Spring",
           guideAddress: "It is located in Ikogosi Ekiti",
           guideDescription:" Ikogosi Warm Springs is one of Nigeria’s natural wonders, where warm and cold springs meet. It's a popular tourist destination, offering a serene environment for relaxation, nature walks, and a spa experience. The warm springs create a unique and tranquil atmosphere."
         },
          {
-            image: "amor.jpg",
+            image: "images/amor.jpg",
             guideName: "Amor hotels",
             guideAddress: "Amor Hotels Ekiti is located at Grand Tower Road, Iworoko-Ifaki, Road, Ado Ekiti 362103, Ekiti, Nigeria",
             guideDescription:" It offers a variety of comfortable and modern accommodations, including classic king rooms, deluxe rooms, diplomatic suites, and executive suites. The hotel also features an outdoor swimming pool, a bar/lounge, and a restaurant, providing a variety of amenities for guests to enjoy",
           }, 
           {
-            image: "images/BaeCation websitepics/fajuyi park1.jpg",
-            guideName: "Prosperous Hotel",
-            guideAddress: "Prosperous Hotel in Ado-Ekiti, Ekiti, Nigeria is Km 4 Iworoko road Opposite Bawa Estate Km 4 Iworoko, road, opposite Bawa Estate, Ado Ekiti 360212, Ekiti, Nigeria",
-            guideDescription:"Prosperous Hotel offers an unmatched blend of comfort, luxury, and warmth. Designed to cater to both business and leisure travelers, this sophisticated hotel features well-appointed rooms with modern amenities, ensuring a relaxing and memorable stay. The elegantly furnished spaces are perfect for any occasion, from corporate meetings to family vacations"
+            image: "images/delight.jpg",
+            guideName: "Delight Hotel",
+            guideAddress:" Delight Hotels Ado Ekiti is 1, Ado - Ilawe Road, Ado-Ekiti,Ekiti State, Nigeria",
+            guideDescription:"Delight Hotels offers a blend of modern comfort and exceptional hospitality. This elegant hotel provides a relaxing retreat for both business and leisure travelers. Guests can enjoy well-furnished rooms, a variety of amenities, and personalized services designed to meet the needs of every visitor"
           },
           {
-            image: "images/BaeCation websitepics/fajuyi park1.jpg",
-            guideName: "Amala spot",
-            guideAddress: "Amala Spot Ado Ekiti is 5, NTA-Ilawe Bypass ( the Federal Polytechnic Ado-Ekiti satellite campus)after.",
-            guideDescription:" Amala Spot in Ekiti is a must-visit. Specializing in the famous Yoruba dish Amala, this spot delivers rich, flavorful meals in a cozy, inviting setting. Served with mouth-watering Gbegiri (bean soup), Ewedu, and an assortment of meat options including goat meat, beef, and stockfish, the meals are both hearty and satisfying"
+            image: "images/chickenRepublic.jpg",
+            guideName: "Chicken Republic",
+            guideAddress: " Sectariat,New-Iyin road, Ado Ekiti,360211, Ado-Ekiti Ekiti state",
+            guideDescription:" Chicken Republic in Ado Ekiti is a popular fast-food chain that offers a delicious selection of affordable and mouthwatering meals. Known for its signature crispy fried chicken, Chicken Republic serves a variety of tasty dishes, including hearty meals, wraps, burgers, and flavorful sides. With a focus on quality and freshness, the restaurant provides a comfortable and casual dining experience for families, friends, and busy professionals alike"
           }, 
           
   ];

@@ -1,67 +1,9 @@
 .logo{
-    border-radius: 50%;
+    border-radius: 20%;
 }
-body{
-    padding: 0px 30px;
-    
-}
-.navAnchor{
-    text-decoration: none;
-    color: black;
-    font-size: 23px;
-}
-.navul{
+.navl{
     list-style-type: none;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
-}
-.logo{
-    height: 90px;
-}
-.nav{
-    width: 70%;
-padding: 15px;
+.navA{
     
-}
-.navul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-    
-}
-.navAnchor:hover{
-    color: red;
- text-decoration: underline;
-}
-.header{
-    padding: 20px;
-}
-
-.section1{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    width: 98%;
-}
-.text12{
-    font-size: 22px;
-}
-.img1{
-    width: 500px;
-    
-}
-.div1{
-    width: 50%;
-}
-.img1{
-    width: 49%;
-    border-radius: 10%;
-
-}
-.div2{
-    display: flex;
-    justify-content: space-between;
 }

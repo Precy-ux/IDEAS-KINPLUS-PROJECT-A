@@ -1,0 +1,8305 @@
+/* General layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    color: #333;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Grid layout */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card design */
+  .team-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation: slideImages 16s infinite;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation: slideImages 16s infinite 4s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation: slideImages 16s infinite 8s;
+  }
+  
+  .image-slider img:nth-child(4) {
+    animation: slideImages 16s infinite 12s;
+  }
+  
+  @keyframes slideImages {
+    0%,
+    25% {
+      opacity: 1;
+    }
+    26%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Text content */
+  .team-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* the header style */
+  .navAnchor {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+  }
+  .navul {
+    list-style-type: none;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+  }
+  .logo {
+    width: 200px;
+    padding: 20px 40px;
+    margin-left: 40px;
+  }
+  .nav {
+    width: 70%;
+    padding: 15px;
+  }
+  .navul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .navAnchor:hover {
+    color: rgb(28, 0, 90);
+    text-decoration: underline;
+  }
+  .header {
+    padding: 20px;
+  }
+  .logo {
+    border-radius: 50%;
+  }
+  body {
+    padding: 0px 30px;
+  }
+  
+  /* new css codes */
+  
+  .attraction-guide-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  .title-role {
+    text-align: left;
+  }
+  
+  .attraction-guide-items {
+    text-align: left;
+  }
+  
+  .title-role h3,
+  .title-role p {
+    margin: 0;
+  }
+  
+  .guide-description {
+    font-size: 14px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    display: inline;
+  }

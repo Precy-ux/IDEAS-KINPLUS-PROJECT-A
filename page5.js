@@ -20,33 +20,9 @@ let attractionGuideArray = [
   {
     image: "images/BaeCation websitepics/fajuyi park1.jpg",
     guideName: "Fajuyi park",
-    guideAddress: "Fajuyi roundabout, Ado-Ekiti, Ekiti state",
-    guideDescription: `Fajuyi Park is a serene and beautiful park located at the Fajuyi Roundabout in Ado-Ekiti, Ekiti State. Known for its lush greenery and peaceful atmosphere, it is an ideal spot for relaxation, picnics, and outdoor activities.
-  `,
-  },
-
-  {
-    image: "images/BaeCation websitepics/arinta fall 1.jpg",
-    guideName: "Arinta waterfall",
-    guideAddress:
-      " is located in Ipole-Iloro town, Ekiti State, Nigeria. 1  It's just a short 5-minute drive from the famous Ikogosi Warm Spring",
+    guideAddress: "Fajuyi round about",
     guideDescription:
-      "Arinta Waterfall, also known as Erin Ijesha Waterfall, is one of the most beautiful waterfalls in Ekiti State. It features a series of cascading waterfalls set in a scenic environment, offering visitors a peaceful atmosphere and opportunities for hiking and outdoor activities",
-  },
-  {
-    image: "images/BaeCation websitepics/.jpg",
-    guideName: "Esa Cave",
-    guideAddress:
-      "It is located in Iyin Ekiti, Ekiti State, Nigeria. It's approximately 3 kilometers away from Ado-Ekiti, the state capital",
-    guideDescription:
-      " Esa Cave is a popular historical and cultural site in Ekiti. The cave offers a great hiking and adventure experience for nature enthusiasts and those interested in the rich history and folklore surrounding the area",
-  },
-  {
-    image: "images/BaeCation websitepics/ikogosi drone view 4.jpg",
-    guideName: "Ikogosi Warm Spring",
-    guideAddress: "It is located in Ikogosi Ekiti",
-    guideDescription:
-      " Ikogosi Warm Springs is one of Nigeria’s natural wonders, where warm and cold springs meet. It's a popular tourist destination, offering a serene environment for relaxation, nature walks, and a spa experience. The warm springs create a unique and tranquil atmosphere.",
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis unde dolor voluptate consequatur quaerat, totam necessitatibus mollitia ipsam velit ipsa officia veniam deserunt. Aut, voluptates aperiam corporis quis optio quisquam?",
   },
   {
     image: "images/BaeCation websitepics/amorfrontplace.jpg",
